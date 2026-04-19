@@ -1,0 +1,7 @@
+<launch>
+    <!-- Start the publisher node -->
+    <node pkg="custom_msg_example" type="two_ints_publisher.py" name="two_ints_publisher" output="screen" />
+
+    <!-- Start the subscriber node -->
+    <node pkg="custom_msg_example" type="two_ints_subscriber.py" name="two_ints_subscriber" output="screen" />
+</launch>

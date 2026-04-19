@@ -1,0 +1,7 @@
+<launch>
+    <!-- Start the talker node -->
+    <node pkg="cpp_talker_listener" type="talker" name="talker" output="screen" />
+
+    <!-- Start the listener node -->
+    <node pkg="cpp_talker_listener" type="listener" name="listener" output="screen" />
+</launch>
